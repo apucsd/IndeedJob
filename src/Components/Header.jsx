@@ -1,50 +1,24 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import Lottie from "lottie-react";
+import jobHunt from "../assets/job-hunting.json";
 
 const Header = () => {
   return (
-    <div className="grid md:grid-cols-3  items-center p-3 text-center ">
-      <div className="navbar bg-base-100 text-center">
-        <Link to="/" className="btn btn-ghost normal-case text-xl">
-          Indeed <span className="text-2xl text-violet-500">Jobs</span>
-        </Link>
+    <div className="grid md:grid-cols-2 justify-center items-center p-4 bg-slate-50">
+      <div className="p-4 mx-4">
+        <h1 className="text-4xl font-semibold">
+          Indeed<span className="text-violet-600">Jobs</span>:
+          <br />
+          Connecting Job Seekers <br /> and <br /> Employers
+        </h1>
+        <p className="my-4 text-gray-600">
+          Find Your Dream Job or Ideal Candidate Today with Our Powerful Search
+          Tools and Extensive Database.
+        </p>
+        <button className="btn btn-secondary">Get Started</button>
       </div>
-      <div className="flex items-center text-lg justify-between ">
-        <NavLink
-          to="/"
-          className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "active" : ""
-          }
-        >
-          Home
-        </NavLink>
-        <NavLink
-          to="statistics"
-          className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "active" : ""
-          }
-        >
-          Statistics
-        </NavLink>
-        <NavLink
-          to="applied_jobs"
-          className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "active" : ""
-          }
-        >
-          Applied_Jobs
-        </NavLink>
-        <NavLink
-          to="blogs"
-          className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "active" : ""
-          }
-        >
-          Blogs
-        </NavLink>
-      </div>
-      <div className="md:text-end my-4 ">
-        <button className="btn btn-primary">Start Applying</button>
+      <div>
+        <Lottie className="h-[440px]" animationData={jobHunt} />
       </div>
     </div>
   );
