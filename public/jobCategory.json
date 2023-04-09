@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Information Technology",
+    "logo_img_url": "https://2.bp.blogspot.com/-Fe6Yf4TZDEM/Vh8iptvFGoI/AAAAAAAAAyk/c9l1CkCxw-k/w1200-h630-p-k-no-nu/information%2Btechnology%2Band%2Btypes%2Bof%2Bfields%2Bin%2Bit.jpg",
+    "available_jobs_quantity": 14
+  },
+  {
+    "id": 2,
+    "title": "Healthcare",
+    "logo_img_url": "https://greenimaging.net/wp-content/uploads/2018/01/greenimaging-whats-going-on-with-healthcare.jpg",
+    "available_jobs_quantity": 0
+  },
+  {
+    "id": 3,
+    "title": "Finance",
+    "logo_img_url": "https://cloudinary.hbs.edu/hbsit/image/upload/s--Ps44R8Q6--/f_auto,c_fill,h_375,w_750,/v20200101/744FBBCB87A0BC857A73CD4C1658940A.jpg",
+    "available_jobs_quantity": 4
+  },
+  {
+    "id": 4,
+    "title": "Education",
+    "logo_img_url": "https://habitatbroward.org/wp-content/uploads/2020/01/10-Benefits-Showing-Why-Education-Is-Important-to-Our-Society.jpg",
+    "available_jobs_quantity": 9
+  }
+]

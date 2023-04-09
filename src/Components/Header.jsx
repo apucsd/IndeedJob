@@ -18,7 +18,7 @@ const Header = () => {
         <button className="btn btn-secondary">Get Started</button>
       </div>
       <div>
-        <Lottie className="h-[440px]" animationData={jobHunt} />
+        <Lottie className="h-[100vh]" animationData={jobHunt} />
       </div>
     </div>
   );
