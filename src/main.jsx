@@ -8,6 +8,7 @@ import Home from "./Components/Home";
 import Statistics from "./Components/Statistics";
 import AppliedJobs from "./Components/AppliedJobs";
 import Blogs from "./Components/Blogs";
+import JobDetail from "./Components/JobDetail";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
+      },
+      {
+        path: "jobs/:jobId",
+        element: <JobDetail></JobDetail>,
       },
       {
         path: "statistics",

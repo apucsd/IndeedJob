@@ -1,5 +1,6 @@
 import React from "react";
 import { MapPinIcon, CurrencyDollarIcon } from "@heroicons/react/24/solid";
+import { Link } from "react-router-dom";
 
 const SingleFeaturedJob = ({ singleFeaturedData }) => {
   //   console.log(singleFeaturedData);
@@ -50,7 +51,10 @@ const SingleFeaturedJob = ({ singleFeaturedData }) => {
           <p className="text-gray-600">{salary}</p>
         </div>
       </div>
-      <button className="btn btn-primary">view details</button>
+      <Link to={`jobs/${id}`}>
+        {" "}
+        <button className="btn btn-primary">view details</button>
+      </Link>
     </div>
   );
 };
