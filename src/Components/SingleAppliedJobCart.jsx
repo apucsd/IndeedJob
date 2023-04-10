@@ -21,7 +21,7 @@ const SingleAppliedJobCart = ({ job }) => {
     salary,
   } = job;
   return (
-    <div className="md:w-[70%] mx-auto border my-2 grid grid-cols-4 justify-between items-center">
+    <div className="md:w-[70%] mx-auto border p-2 my-2 grid md:grid-cols-4 justify-between items-center">
       <div className=" md:col-span-3 col-span-4 flex gap-2">
         <div className="p-3">
           <img className="h-36 w-36" src={logo} alt="" />
@@ -31,10 +31,10 @@ const SingleAppliedJobCart = ({ job }) => {
           <h1 className="text-xl font-semibold my-4">{job_title}</h1>
           <p className="text-gray-600">{company_name}</p>
           <div className="flex gap-4 my-3">
-            <div className="border cursor-pointer p-1 text-violet-600 border-violet-700 rounded">
+            <div className="border cursor-pointer p-1 text-[#C200B3] border-[#C200B3] rounded">
               {remote_or_onsite}
             </div>
-            <div className="border cursor-pointer  p-1 text-violet-600 border-violet-700 rounded">
+            <div className="border cursor-pointer  p-1 text-[#C200B3] border-[#C200B3] rounded">
               {full_or_part_time}
             </div>
           </div>
@@ -58,10 +58,12 @@ const SingleAppliedJobCart = ({ job }) => {
         </div>
       </div>
 
-      <div className="">
+      <div className="ml-4 text-end">
         <Link to={`/jobs/${id}`}>
           {" "}
-          <button className="btn btn-secondary">view details</button>
+          <button className="btn bg-gradient-to-r from-fuchsia-600 to-cyan-400 border-0">
+            view details
+          </button>
         </Link>
       </div>
     </div>

@@ -44,7 +44,9 @@ const Navbar = () => {
         </NavLink>
       </div>
       <div className="md:text-end my-4 ">
-        <button className="btn btn-secondary">Start Applying</button>
+        <button className="btn bg-gradient-to-r from-fuchsia-600 to-cyan-400 border-0">
+          Start Applying
+        </button>
       </div>
     </div>
   );

@@ -15,7 +15,9 @@ const Header = () => {
           Find Your Dream Job or Ideal Candidate Today with Our Powerful Search
           Tools and Extensive Database.
         </p>
-        <button className="btn btn-secondary">Get Started</button>
+        <button className="btn bg-gradient-to-r from-fuchsia-600 to-cyan-400 border-0">
+          Get Started
+        </button>
       </div>
       <div>
         <Lottie className="h-[100vh]" animationData={jobHunt} />

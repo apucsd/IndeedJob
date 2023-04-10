@@ -116,7 +116,7 @@ const JobDetail = () => {
         <div>
           <div
             onClick={() => handleAppliedJobs(job_title)}
-            className="btn btn-secondary my-6 w-full"
+            className="btn bg-gradient-to-r from-fuchsia-600 to-cyan-400 border-0 my-6 w-full"
           >
             Apply Now
           </div>

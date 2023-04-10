@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .active {
-  @apply underline;
+  @apply underline text-[#C200B3] border-[#C200B3];
 }

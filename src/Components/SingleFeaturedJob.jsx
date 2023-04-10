@@ -53,7 +53,9 @@ const SingleFeaturedJob = ({ singleFeaturedData }) => {
       </div>
       <Link to={`jobs/${id}`}>
         {" "}
-        <button className="btn btn-primary">view details</button>
+        <button className="btn bg-gradient-to-r from-fuchsia-600 to-cyan-400 border-0">
+          view details
+        </button>
       </Link>
     </div>
   );

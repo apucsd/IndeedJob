@@ -29,18 +29,18 @@ const FeaturedJobs = () => {
           ></SingleFeaturedJob>
         ))}
       </div>
-      <div className="text-center">
+      <div className="text-center my-4">
         {isShow ? (
           <button
             onClick={() => setIsShow(!isShow)}
-            className="btn-secondary btn"
+            className="bg-gradient-to-r from-fuchsia-600 to-cyan-400 border-0 btn"
           >
             Show all
           </button>
         ) : (
           <button
             onClick={() => setIsShow(!isShow)}
-            className="btn-secondary btn"
+            className="btn bg-gradient-to-r from-fuchsia-600 to-cyan-400 border-0"
           >
             Show less
           </button>
