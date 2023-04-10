@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const SingleAppliedJobCart = ({ job }) => {
-  console.log(job);
+  // console.log(job);
 
   const {
     id,
@@ -21,11 +21,12 @@ const SingleAppliedJobCart = ({ job }) => {
     salary,
   } = job;
   return (
-    <div className="w-[70%] mx-auto border my-2 flex justify-between items-center p-4">
-      <div className="flex gap-2 img+text div">
-        <div className="p-3 flex">
+    <div className="md:w-[70%] mx-auto border my-2 grid grid-cols-4 justify-between items-center">
+      <div className=" md:col-span-3 col-span-4 flex gap-2">
+        <div className="p-3">
           <img className="h-36 w-36" src={logo} alt="" />
         </div>
+
         <div className="">
           <h1 className="text-xl font-semibold my-4">{job_title}</h1>
           <p className="text-gray-600">{company_name}</p>
@@ -37,7 +38,7 @@ const SingleAppliedJobCart = ({ job }) => {
               {full_or_part_time}
             </div>
           </div>
-          <div className="flex gap-4 my-4 text-sm">
+          <div className="md:flex gap-4 my-4 text-sm">
             <div className="flex">
               <span>
                 {" "}
@@ -57,7 +58,7 @@ const SingleAppliedJobCart = ({ job }) => {
         </div>
       </div>
 
-      <div className="clasfor btn0">
+      <div className="">
         <Link to={`/jobs/${id}`}>
           {" "}
           <button className="btn btn-secondary">view details</button>
