@@ -9,6 +9,7 @@ const Header = () => {
         <h1 className="text-4xl font-semibold">
           Indeed<span className="text-violet-600">Jobs</span>:
           <br />
+          <br />
           Connecting Job Seekers <br /> and <br /> Employers
         </h1>
         <p className="my-4 text-gray-600">
