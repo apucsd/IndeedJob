@@ -8,6 +8,7 @@ import {
   EnvelopeIcon,
 } from "@heroicons/react/24/solid";
 import { addToDb } from "../Utilities/FakeDB";
+import { Link } from "react-router-dom";
 
 const JobDetail = () => {
   const params = useParams();
@@ -22,6 +23,22 @@ const JobDetail = () => {
     };
     loadData();
   }, []);
+
+  if (specificJob) {
+  } else {
+    return (
+      <div className="text-center my-12">
+        <h1 className="text-center text-fuchsia-600 font-semibold">
+          Such Job Not Found
+        </h1>
+        <Link to="/">
+          <button className="p-3 border rounded m-4 btn-outline">
+            Go Home
+          </button>
+        </Link>
+      </div>
+    );
+  }
   const {
     company_name,
     contact_info,
