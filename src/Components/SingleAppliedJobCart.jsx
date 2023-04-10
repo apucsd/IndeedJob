@@ -1,5 +1,6 @@
 import { MapPinIcon, CurrencyDollarIcon } from "@heroicons/react/24/solid";
 import React from "react";
+import { Link } from "react-router-dom";
 
 const SingleAppliedJobCart = ({ job }) => {
   console.log(job);
@@ -57,7 +58,10 @@ const SingleAppliedJobCart = ({ job }) => {
       </div>
 
       <div className="clasfor btn0">
-        <button className="btn btn-secondary">view details</button>
+        <Link to={`/jobs/${id}`}>
+          {" "}
+          <button className="btn btn-secondary">view details</button>
+        </Link>
       </div>
     </div>
   );
