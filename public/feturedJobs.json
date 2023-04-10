@@ -1,0 +1,110 @@
+[
+  {
+    "id": "1",
+    "logo": "https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?w=900&t=st=1681100876~exp=1681101476~hmac=ef7a23d5151e300157bc32cef2a49cbba0256803168beedc0346bf965c02a985",
+    "job_title": "Software Engineer",
+    "company_name": "ABC Company",
+    "remote_or_onsite": "Remote",
+    "location": "New York, NY",
+    "full_or_part_time": "Full-time",
+    "salary": "$100,000 - $120,000",
+    "job_description": "We are seeking a talented software engineer to join our team. In this role, you will work on developing and maintaining our flagship product.",
+    "job_responsibility": "Design and develop software applications using Java, Python, and other languages. Collaborate with other engineers, product managers, and designers to create high-quality products. Write clean, maintainable, and efficient code. Debug and troubleshoot issues as they arise. Participate in code reviews and provide constructive feedback to other team members.",
+    "education_qualification": "Bachelor's degree in Computer Science or related field. Master's degree preferred.",
+    "experience": "3+ years of professional experience in software development.",
+    "contact_info": {
+      "phone": "555-123-4567",
+      "email": "hr@abccompany.com"
+    }
+  },
+  {
+    "id": "2",
+    "logo": "https://img.freepik.com/free-photo/corporate-management-strategy-solution-branding-concept_53876-167088.jpg?w=900&t=st=1681100968~exp=1681101568~hmac=9995e5a926378b3a6b1699cb2a6beeb32eb96f07cc1ad62abf138615f6a1f7f4",
+    "job_title": "Marketing Manager",
+    "company_name": "XYZ Corporation",
+    "remote_or_onsite": "Onsite",
+    "location": "San Francisco, CA",
+    "full_or_part_time": "Full-time",
+    "salary": "$80,000 - $100,000",
+    "job_description": "We are looking for an experienced marketing manager to join our team. In this role, you will be responsible for developing and implementing marketing strategies to promote our products and services.",
+    "job_responsibility": "Develop and implement marketing strategies to increase brand awareness and drive sales. Conduct market research and analyze customer data to identify trends and insights. Manage social media channels and create engaging content. Collaborate with other teams, such as sales and product, to align marketing strategies with business goals. Measure and report on the performance of marketing campaigns and initiatives.",
+    "education_qualification": "Bachelor's degree in Marketing or related field. Master's degree preferred.",
+    "experience": "5+ years of experience in marketing, with a focus on digital marketing and social media.",
+    "contact_info": {
+      "phone": "555-123-4567",
+      "email": "careers@xyzcorp.com"
+    }
+  },
+  {
+    "id": "3",
+    "logo": "https://img.freepik.com/free-vector/concept-landing-page-design-process_52683-25517.jpg?w=740&t=st=1681101022~exp=1681101622~hmac=8fe34a2c30d373c02a6091aee5abc6442ca8719339b24981597baa6beb164888",
+    "job_title": "Graphic Designer",
+    "company_name": "123 Creative Agency",
+    "remote_or_onsite": "Remote",
+    "location": "Anywhere",
+    "full_or_part_time": "Part-time",
+    "salary": "$25 - $35 per hour",
+    "job_description": "We are seeking a talented graphic designer to join our team. In this role, you will be responsible for creating visual designs for our clients.",
+    "job_responsibility": "Design graphics for print and digital media, such as logos, brochures, websites, and social media. Collaborate with other designers, account managers, and clients to ensure high-quality designs. Stay up-to-date with the latest design trends and technologies. Present designs to clients and make revisions as needed. Manage multiple projects simultaneously and meet deadlines.",
+    "education_qualification": "Bachelor's degree in Marketing or related field. Master's degree preferred.",
+    "experience": "5+ years of experience in marketing, with a focus on digital marketing and social media.",
+    "contact_info": {
+      "phone": "554-123-45467",
+      "email": "myeeers@xyzcorp.com"
+    }
+  },
+  {
+    "id": "4",
+    "logo": "https://img.freepik.com/free-vector/isometric-data-visualization-concept_23-2148078547.jpg?w=740&t=st=1681101064~exp=1681101664~hmac=14310a96fa51ef5e1f8c800896b5a27b8bea43e639c4e3e133bd6620427fad02",
+    "job_title": "Data Scientist",
+    "company_name": "Data Science Co.",
+    "remote_or_onsite": "Onsite",
+    "location": "Boston, MA",
+    "full_or_part_time": "Full-time",
+    "salary": "$120,000 - $140,000",
+    "job_description": "We are seeking an experienced data scientist to join our team. In this role, you will work on developing and implementing machine learning algorithms to solve complex business problems.",
+    "job_responsibility": "Collect, analyze, and interpret large datasets. Develop and implement machine learning algorithms and models. Collaborate with cross-functional teams, such as engineering and product, to drive data-driven decision making. Communicate findings and insights to stakeholders. Stay up-to-date with the latest data science technologies and techniques.",
+    "education_qualification": "Master's or Ph.D. in Computer Science, Statistics, or related field.",
+    "experience": "3+ years of experience in data science or machine learning.",
+    "contact_info": {
+      "phone": "555-123-4567",
+      "email": "jobs@datascienceco.com"
+    }
+  },
+  {
+    "id": "5",
+    "logo": "https://img.freepik.com/free-vector/gradient-social-media-logo_23-2148291521.jpg?w=740&t=st=1681101143~exp=1681101743~hmac=814dde0db5da0894540db16f84d394934f965e47feef31484e3a5659af7b65a7",
+    "job_title": "Customer Service Representative",
+    "company_name": "Acme Corporation",
+    "remote_or_onsite": "Remote",
+    "location": "United States",
+    "full_or_part_time": "Full-time",
+    "salary": "$40,000 - $50,000",
+    "job_description": "We are seeking a customer service representative to join our team. In this role, you will provide support to customers via phone, email, and chat.",
+    "job_responsibility": "Respond to customer inquiries and issues in a timely and professional manner. Provide accurate and helpful information to customers. Escalate complex issues to the appropriate team members. Maintain accurate customer records and documentation. Continuously identify opportunities for process improvement.",
+    "education_qualification": "High school diploma or equivalent. Some college preferred.",
+    "experience": "1+ years of experience in customer service or related field.",
+    "contact_info": {
+      "phone": "555-123-4567",
+      "email": "careers@acmecorp.com"
+    }
+  },
+  {
+    "id": "6",
+    "logo": "https://img.freepik.com/premium-vector/isometric-concept-laboratory-exploring-new-methods-plant-breeding-agricultural-genetics-plants-growing-test-tubes_589019-3909.jpg?w=740",
+    "job_title": "Senior Data Scientist",
+    "company_name": "DataTech",
+    "remote_or_onsite": "Remote",
+    "location": "Anywhere",
+    "full_or_part_time": "Full-time",
+    "salary": "$120,000 - $150,000",
+    "job_description": "We are seeking a Senior Data Scientist to join our team. In this role, you will lead data analysis and modeling projects, and provide strategic guidance for the organization's data initiatives.",
+    "job_responsibility": "Design and implement data analysis and modeling projects. Conduct statistical analysis and create predictive models to support business decisions. Develop and maintain data pipelines and databases. Collaborate with cross-functional teams, such as product and engineering, to drive data initiatives. Communicate findings and insights to stakeholders in a clear and concise manner.",
+    "education_qualification": "Master's or PhD in Data Science, Statistics, Computer Science, or related field.",
+    "experience": "5+ years of experience in data analysis and modeling.",
+    "contact_info": {
+      "phone": "555-123-4567",
+      "email": "hr@datatech.com"
+    }
+  }
+]
