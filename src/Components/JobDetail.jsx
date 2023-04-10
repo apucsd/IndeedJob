@@ -1,5 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import {
+  MapPinIcon,
+  CurrencyDollarIcon,
+  CalendarIcon,
+  PhoneIcon,
+  EnvelopeIcon,
+} from "@heroicons/react/24/solid";
+import { addToDb } from "../Utilities/FakeDB";
 
 const JobDetail = () => {
   const params = useParams();
@@ -14,7 +22,6 @@ const JobDetail = () => {
     };
     loadData();
   }, []);
-
   const {
     company_name,
     contact_info,
@@ -30,6 +37,9 @@ const JobDetail = () => {
     salary,
   } = specificJob;
 
+  const handleAppliedJobs = (job_title) => {
+    addToDb(job_title);
+  };
   return (
     <div className="grid md:grid-cols-3 gap-8 md:mx-12 my-12">
       <div className="col-span-2">
@@ -57,32 +67,42 @@ const JobDetail = () => {
       <div className="px-8 py-6 rounded bg-slate-100">
         <h1 className="font-semibold py-2">Job Details</h1>
         <hr />
-        <p className="text-gray-600 my-6">
+        <p className="text-gray-600 my-6 flex items-center gap-1">
+          <CurrencyDollarIcon className="h-5 w-5 text-gray-500" />
           <span className="font-semibold">Salary: </span>
           {salary}
         </p>
-        <p className="text-gray-600">
+        <p className="text-gray-600 flex items-center gap-1">
+          <CalendarIcon className="h-5 w-5 text-gray-500" />
           <span className="font-semibold">Job Title: </span>
           {job_title}
         </p>
 
         <h1 className="font-semibold py-2 my-4">Contact Information</h1>
         <hr />
-        <p className="text-gray-600">
+        <p className="text-gray-600 flex items-center gap-2">
+          <PhoneIcon className="h-5 w-5 text-gray-500" />
           <span className="font-semibold">Phone: </span>
           {contact_info?.phone}
         </p>
-        <p className="text-gray-600">
+        <p className="text-gray-600 flex items-center gap-2">
+          <EnvelopeIcon className="h-5 w-5 text-gray-500" />
           <span className="font-semibold">Email: </span>
           {contact_info?.email}
         </p>
-        <p className="text-gray-600">
+        <p className="text-gray-600 flex items-center gap-2">
+          <MapPinIcon className="h-5 w-5 text-gray-500" />
           <span className="font-semibold">Address: </span>
           {location}
         </p>
 
         <div>
-          <div className="btn btn-secondary my-6 w-full">Apply Now</div>
+          <div
+            onClick={() => handleAppliedJobs(job_title)}
+            className="btn btn-secondary my-6 w-full"
+          >
+            Apply Now
+          </div>
         </div>
       </div>
     </div>
