@@ -4,6 +4,7 @@ import SingleAppliedJobCart from "./SingleAppliedJobCart";
 
 const AppliedJobs = () => {
   const jobs = useLoaderData();
+  // console.log(jobs);
   const [appliedJobs, setAppliedJobs] = useState([]);
   const [allAppliedJobs, setAllAppliedJobs] = useState([]);
   useEffect(() => {
