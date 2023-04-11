@@ -1,5 +1,4 @@
 export const addToDb = (title) => {
-  console.log(title);
   let jobs = {};
   const appliedJobs = localStorage.getItem("apply-job");
   if (appliedJobs) {

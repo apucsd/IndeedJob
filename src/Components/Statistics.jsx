@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import {
   Line,
@@ -15,8 +15,17 @@ import {
 } from "recharts";
 
 const Statistics = () => {
-  const assignments = useLoaderData();
   //   console.log(assignments);
+  const [assignments, setAssignments] = useState([]);
+  useEffect(() => {
+    const loadData = async () => {
+      const loadedData = await fetch("assignments.json");
+      const data = await loadedData.json();
+      setAssignments(data);
+    };
+    loadData();
+  }, []);
+
   return (
     <div className="w-[80%] h-[300px] mx-auto">
       <ResponsiveContainer>

@@ -4,7 +4,7 @@ import SingleJobCategory from "./SingleJobCategory";
 const JobCategory = () => {
   const [jobCategory, setJobCategory] = useState([]);
   useEffect(() => {
-    fetch("/public/jobCategory.json")
+    fetch("jobCategory.json")
       .then((res) => res.json())
       .then((data) => setJobCategory(data));
   }, []);

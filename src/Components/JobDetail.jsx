@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import {
   MapPinIcon,
   CurrencyDollarIcon,
@@ -16,7 +18,7 @@ const JobDetail = () => {
   const [specificJob, setSpecificJob] = useState({});
   useEffect(() => {
     const loadData = async () => {
-      const loadeddata = await fetch("/public/feturedJobs.json");
+      const loadeddata = await fetch("/feturedJobs.json");
       const data = await loadeddata.json();
       const result = data.find((specificJob) => specificJob.id == id);
       setSpecificJob(result);
@@ -55,6 +57,7 @@ const JobDetail = () => {
   } = specificJob;
 
   const handleAppliedJobs = (job_title) => {
+    toast("Apply Successful..");
     addToDb(job_title);
   };
   return (
@@ -122,6 +125,7 @@ const JobDetail = () => {
           </div>
         </div>
       </div>
+      <ToastContainer />
     </div>
   );
 };

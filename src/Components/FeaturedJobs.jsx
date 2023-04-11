@@ -6,7 +6,7 @@ const FeaturedJobs = () => {
   const [isShow, setIsShow] = useState(true);
   useEffect(() => {
     const loadData = async () => {
-      const loadeddata = await fetch("/public/feturedJobs.json");
+      const loadeddata = await fetch("feturedJobs.json");
       const data = await loadeddata.json();
       setFeaturedData(data);
     };
