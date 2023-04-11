@@ -22,7 +22,7 @@ const SingleFeaturedJob = ({ singleFeaturedData }) => {
   } = singleFeaturedData;
   return (
     <div className="border p-4 ">
-      <img className="h-12 w-14 rounded " src={logo} alt="" />
+      <img className="h-24 w-32 rounded " src={logo} alt="" />
       <h1 className="text-xl font-semibold my-4">{job_title}</h1>
       <p className="text-gray-600">{company_name}</p>
       <div className="flex gap-4 my-3">
