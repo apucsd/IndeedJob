@@ -12,3 +12,5 @@
 - applied jobs route show only the applied jobs
 - Blogs route answered some Question
 - Added a Error page for 404
+
+\*Live link: https://stellular-sprite-cf2f65.netlify.app/
