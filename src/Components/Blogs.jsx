@@ -11,7 +11,12 @@ const Blogs = () => {
           1. When should you use context API?
         </div>
         <div className="collapse-content">
-          <p>tabIndex={0} attribute is necessary to make the div focusable</p>
+          <p>
+            Context api is mainly used when someone need to pass data by many
+            components instead of props drilling. Its is the alternative of
+            props drilling. We should use context api when a same data need for
+            many component's accessible.
+          </p>
         </div>
       </div>
       <div
@@ -22,7 +27,12 @@ const Blogs = () => {
           2 .What is a custom hook?
         </div>
         <div className="collapse-content">
-          <p>tabIndex={0} attribute is necessary to make the div focusable</p>
+          <p>
+            Custom hooks are functions that are made by developer for their own
+            logic. The main use of custom hooks is DRY means "Don't Repeat
+            Yourself" logic. Customs hooks are reusable that why custom hooks
+            are used so much.
+          </p>
         </div>
       </div>
       <div
@@ -33,7 +43,12 @@ const Blogs = () => {
           3. What is useRef?
         </div>
         <div className="collapse-content">
-          <p>tabIndex={0} attribute is necessary to make the div focusable</p>
+          <p>
+            useRef is a build in react hook that takes an arguments as the
+            initial value and return a reference.The return reference is a
+            mutable object.It is used "useRef" to access a DOM element or react
+            element directly.
+          </p>
         </div>
       </div>
       <div
@@ -44,7 +59,11 @@ const Blogs = () => {
           4. What is useMemo?
         </div>
         <div className="collapse-content">
-          <p>tabIndex={0} attribute is necessary to make the div focusable</p>
+          <p>
+            useMemo is a build in react hook that takes two arguments.t is very
+            useful in optimizing the performance of a React component by
+            eliminating repeating heavy computations.
+          </p>
         </div>
       </div>
     </div>
