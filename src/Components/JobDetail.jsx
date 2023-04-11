@@ -61,8 +61,8 @@ const JobDetail = () => {
     addToDb(job_title);
   };
   return (
-    <div className="grid md:grid-cols-3 gap-8 md:mx-12 my-12">
-      <div className="col-span-2">
+    <div className="grid md:grid-cols-3 gap-8 md:mx-12 my-12 mx-4 p-4 justify-center items-center">
+      <div className="md:col-span-2">
         <p>
           <span className="font-semibold">Job Description: </span>
           <span className="text-gray-600"> {job_description}</span>
@@ -84,7 +84,7 @@ const JobDetail = () => {
           <span className="text-gray-600"> {experience}</span>
         </p>
       </div>
-      <div className="px-8 py-6 rounded bg-slate-100">
+      <div className="px-6 py-6 rounded bg-slate-100">
         <h1 className="font-semibold py-2">Job Details</h1>
         <hr />
         <p className="text-gray-600 my-6 flex items-center gap-1">

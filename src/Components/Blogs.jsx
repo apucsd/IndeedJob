@@ -2,7 +2,7 @@ import React from "react";
 
 const Blogs = () => {
   return (
-    <div className="md:w-1/2 mx-auto my-8">
+    <div className="md:w-1/2 md:mx-auto mx-4 my-8 ">
       <div
         tabIndex={0}
         className="collapse collapse-arrow border border-base-300 bg-base-100 my-1\3"

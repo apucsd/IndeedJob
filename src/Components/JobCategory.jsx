@@ -14,7 +14,7 @@ const JobCategory = () => {
     <div className="md:mx-12">
       <div className="text-center">
         <h1 className="text-3xl font-semibold my-4">Job Category List</h1>
-        <p className="text-gray-600">
+        <p className="text-gray-600 mx-2">
           There are many different job categories that people can choose from
           depending on their interests, skills, and qualifications.{" "}
         </p>

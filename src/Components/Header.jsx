@@ -4,9 +4,9 @@ import jobHunt from "../assets/job-hunting.json";
 
 const Header = () => {
   return (
-    <div className="grid md:grid-cols-2 justify-center items-center p-4 bg-slate-50">
+    <div className="grid md:grid-cols-2 justify-center items-center md:p-4 bg-slate-50">
       <div className="p-4 mx-4">
-        <h1 className="text-4xl font-semibold">
+        <h1 className="md:text-4xl text-3xl font-semibold">
           Indeed<span className="text-violet-600">Jobs</span>:
           <br />
           <br />
@@ -21,7 +21,7 @@ const Header = () => {
         </button>
       </div>
       <div>
-        <Lottie className="h-[100vh]" animationData={jobHunt} />
+        <Lottie className="md:h-[80vh]" animationData={jobHunt} />
       </div>
     </div>
   );
